@@ -16,8 +16,6 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
-
         val adapter = ElementAdapter(elementList = getElementList())
         binding.recyclerView.adapter = adapter
         val layoutManager = GridLayoutManager(this, 9, RecyclerView.HORIZONTAL, false)

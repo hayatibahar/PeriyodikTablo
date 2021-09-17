@@ -30,7 +30,6 @@
                 app:layout_constraintTop_toTopOf="parent" />
         </ScrollView>
 
-
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAtom"
             android:layout_width="match_parent"
@@ -45,7 +44,6 @@
             app:lottie_repeatMode="restart">
 
         </com.airbnb.lottie.LottieAnimationView>
-
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
